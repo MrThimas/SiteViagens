@@ -1,0 +1,117 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: Aboreto;
+	font-size: 15px;
+}
+
+.center{
+	width: 1280px;
+	margin: 0 auto;
+}
+@font-face{
+	src: url("../font/Aboreto-Regular.ttf");
+	font-family: Aboreto;
+}
+
+.header{
+	width: 100%;
+	height: 70px;
+	background-color: black;
+}
+
+.logo{
+	height: 50px;
+	padding-top: 10px;
+	position: absolute;
+}
+.logo2{
+	color: white;
+	float: left;
+	margin-left: 50px;
+	margin-top: 15px;
+	font-size: 30px;
+}
+.slogan{
+	color: yellow;
+	float: left;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+.sobre{
+	float: right;
+	color: red;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 200px;
+	text-decoration: none;
+}
+.cont{
+	float: right;
+	color: red;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 300px;
+	text-decoration: none;
+}
+.frefect{
+	color: white;
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.container-banner{
+	width: 100%;
+	height: 500px;
+	background-image: url(../imagens/header_bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.container-banner > .center{
+	height: 100%;
+}
+
+.form{
+	width: 400px;
+	padding: 10px;
+	height: calc(100% + 30px);
+	background-color: #f5a22f;
+	position: relative;
+	top: -15px;
+	float: right;
+	border: 8px solid yellow;
+
+
+}
+.formtext{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.form-container{
+	margin-top: 20px;
+	padding: 10px;
+}
+.form-container span{
+	display: inline-block;
+	width: 100%;
+	font-size: 17px;
+}
+.form-container input{
+	width: 340px;
+	height: 24px;
+	border: 1px solid black;
+}
+.form input[type=submit]{
+	margin-left: 70px;
+	margin-top: 20px;
+	width: 200px;
+	height: 45px;
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	
+}
